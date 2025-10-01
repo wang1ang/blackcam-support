@@ -1,2 +1,3 @@
-# blackcam-support
-Support page for BlackCam Lite
+# Image App Support
+Support page for image apps:
+* InfraView
