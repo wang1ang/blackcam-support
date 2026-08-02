@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Third-Party Licenses - SmartLLM</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: #111;
+      color: #f5f5f7;
+    }
+    h1 { font-size: 2.2rem; }
+    h2 { margin-top: 2rem; }
+    section {
+      padding: 20px 24px;
+      margin: 16px 0;
+      border: 1px solid #333;
+      border-radius: 16px;
+      background: #1c1c1e;
+    }
+    a { color: #30d158; }
+    code { color: #9fe8b0; }
+  </style>
+</head>
+<body>
+  <h1>Third-Party Licenses</h1>
+  <p>
+    SmartLLM uses open-source software and downloads selected model files from
+    third-party repositories. The applicable license for each model is determined
+    by the model repository and its specific revision.
+  </p>
+
+  <section>
+    <h2>MLX Swift</h2>
+    <p>MLX Swift and related Apple-silicon machine-learning components.</p>
+    <p>License: MIT License</p>
+    <p><a href="https://github.com/ml-explore/mlx-swift">Source repository and license</a></p>
+  </section>
+
+  <section>
+    <h2>MLX Swift LM</h2>
+    <p>Language-model and vision-language-model support for MLX Swift.</p>
+    <p>License: MIT License</p>
+    <p><a href="https://github.com/ml-explore/mlx-swift-lm">Source repository and license</a></p>
+  </section>
+
+  <section>
+    <h2>Swift Transformers</h2>
+    <p>Tokenizer and transformer support used by the application.</p>
+    <p>License: see the <code>LICENSE</code> file in the source repository.</p>
+    <p><a href="https://github.com/huggingface/swift-transformers">Source repository and license</a></p>
+  </section>
+
+  <section>
+    <h2>Downloaded models</h2>
+    <p>
+      Model files are downloaded after installation and are not bundled in the
+      application binary. Please see the license and notice files in each exact
+      model repository before using or redistributing a model.
+    </p>
+    <ul>
+      <li><a href="https://huggingface.co/wang-yang/Qwen3.5-2B-MTPLX-4bit-MTP4">Qwen3.5 2B MTPLX</a></li>
+      <li><a href="https://huggingface.co/wang-yang/Qwen3.5-4B-MTPLX-4bit-MTP4">Qwen3.5 4B MTPLX</a></li>
+      <li><a href="https://huggingface.co/prism-ml/Bonsai-4B-mlx-1bit">Bonsai 4B</a></li>
+      <li><a href="https://huggingface.co/prism-ml/Bonsai-8B-mlx-1bit">Bonsai 8B</a></li>
+      <li><a href="https://huggingface.co/prism-ml/Bonsai-27B-mlx-1bit">Bonsai 27B</a></li>
+    </ul>
+    <p>
+      Bonsai models are provided by Prism ML under the Apache License 2.0.
+      Please also review the repository's <code>NOTICE.txt</code> file for attribution.
+    </p>
+  </section>
+
+  <p><a href="index.html">Back to App Support</a></p>
+</body>
+</html>
